@@ -1,0 +1,41 @@
+// custome variables
+$primary: #2c3e50; /* Dark Blue (Trust, Security) */
+$secondary: #27ae60; /* Green (Growth, Prosperity) */
+$info: #2980b9; /* Blue (Professionalism, Calm) */
+$warning: #e67e22; /* Orange (Caution, Attention) */
+$danger: #c0392b; /* Red (Alerts, Risks) */
+$light: #ecf0f1; /* Light Gray (Backgrounds) */
+$dark: #34495e; /* Dark Gray (Text, Borders) */
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Custom CSS to override Bootstrap 5 font sizes */
+
+/* Override fs-1 */
+.fs-1 {
+  font-size: 2.2rem !important; /* Adjust the size as per your preference */
+}
+
+/* Override fs-2 */
+.fs-2 {
+  font-size: 1.7rem !important; /* Adjust the size as per your preference */
+}
+
+/* Override fs-3 */
+.fs-3 {
+  font-size: 1.5rem !important; /* Adjust the size as per your preference */
+}
+
+/* Override fs-4 */
+.fs-4 {
+  font-size: 1.3rem !important; /* Adjust the size as per your preference */
+}
+
+/* Override fs-5 */
+.fs-5 {
+  font-size: 1.1rem !important; /* Adjust the size as per your preference */
+}
+
+/* Override fs-6 */
+.fs-6 {
+  font-size: 0.95rem !important; /* Adjust the size as per your preference */
+}
